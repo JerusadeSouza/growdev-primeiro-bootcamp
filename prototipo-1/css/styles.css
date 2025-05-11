@@ -21,6 +21,7 @@
 footer {
     background-color: #1f2821;
     color: #848484;
+    
 }
 
 .main-content {
@@ -38,6 +39,17 @@ footer {
 } 
 
 
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
 
 /* Sobrescrita Bootstrap */
 .form-control {
@@ -65,4 +77,5 @@ footer {
     background-color: #354338;
     color: #ffff;
     cursor: pointer;
+    animation: rotate-scale-up 0.65s linear both;
 }

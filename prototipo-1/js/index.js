@@ -38,8 +38,7 @@ function renderCharactersList(characters) {
 
     const card = `
             <div class="card mb-3 card-character" onclick="viewCharacterDetail(${
-              character.id
-            })">
+              character.id})">
                 <div class="row g-0">
                     <div class="col-12 col-md-5">
                         <div class="object-fit-fil border rounded h-100">
@@ -51,7 +50,7 @@ function renderCharactersList(characters) {
                     </div>
                     <div class="col-12 col-md-7">
                         <div class="card-body fw-bolder">
-                            <h5 class="card-title">${name.character}</h5>
+                            <h5 class="card-title">${nameCharacter}</h5>
 
                             <p class="card-text">
                                 <small>

@@ -44,7 +44,7 @@ async function getEpisodeDataFromURL(url) {
 // Buscar dados de um personagem por ID
 async function getCharacterById(characterId) {
   try {
-    const result = await api.get(`/character/${characterIdId}`);
+    const result = await api.get(`/character/${characterId}`);
 
     return result.data;
   } catch (error) {
