@@ -1,10 +1,8 @@
-/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-    */
 
 .main-title {
     color: #105718;
@@ -35,13 +33,13 @@ footer {
     padding-top: 40px;
 }
 
-/*
 .detail {
     background-size: cover;
-} */
+} 
+
+
 
 /* Sobrescrita Bootstrap */
-
 .form-control {
     border-right: none;
 }
@@ -63,8 +61,7 @@ footer {
     margin-bottom: 2px;
 }
 
-.card-character {
-/*.card*/
+.card {
     background-color: #354338;
     color: #ffff;
     cursor: pointer;

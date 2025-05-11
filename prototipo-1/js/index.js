@@ -8,7 +8,7 @@ async function main() {
 async function loadMainContent(page) {
   const result = await listCharactersByPage(page);
 
-  const characters = [...result.CharactersList];
+  const characters = [...result.charactersList];
 
   for (const character of characters) {
     const lastEpisodeUrl = character.episode[character.episode.length - 1]; // [0, 1, 2, 3] = length => 4 - 1

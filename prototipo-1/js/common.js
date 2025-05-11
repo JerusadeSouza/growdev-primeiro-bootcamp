@@ -46,7 +46,7 @@ async function renderFooterData() {
   spanTotalEpisodes.innerText = totalEpisodes;
 
   const spanDevName = document.getElementById("dev-name");
-  spanDevName.innerText = "Leticia Leal";
+  spanDevName.innerText = "Jerusa de Souza";
 
   const spanCurrentYear = document.getElementById("current-year");
   spanCurrentYear.innerText = new Date().getFullYear();
