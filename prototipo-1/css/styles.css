@@ -1,8 +1,14 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    */
+
 .main-title {
     color: #105718;
 }
-
-
 
 #circle-status {
     font-size: 10px;
@@ -10,10 +16,8 @@
     margin-right: 4px;
 }
 
-
-
 .copy {
-    margin-top: 34px;
+    margin-top: 128px;
 }
 
 footer {
@@ -31,11 +35,10 @@ footer {
     padding-top: 40px;
 }
 
-.card-character {
-    background-color: #354338;
-    color: #ffff;
-    cursor: pointer;
-}
+/*
+.detail {
+    background-size: cover;
+} */
 
 /* Sobrescrita Bootstrap */
 
@@ -56,4 +59,13 @@ footer {
 
 .card-title {
     font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+.card-character {
+/*.card*/
+    background-color: #354338;
+    color: #ffff;
+    cursor: pointer;
 }
